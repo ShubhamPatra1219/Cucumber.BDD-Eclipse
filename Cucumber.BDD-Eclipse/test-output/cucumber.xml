@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.199898">
+<testcase classname="Login Feature" name="Positive Login Scenario" time="11.199898">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[]Online Shopping Indi...&gt; but was:&lt;[Shoppers Stop | ]Online Shopping Indi...&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.cg.StepDef.LoginStepDef.user_is_on_Home_Page(LoginStepDef.java:37)&#13;&#10;&#9;at ✽.Then user is on Home Page(login.feature:7)&#13;&#10;"><![CDATA[Given user is on Login Page.................................................passed
+When user enters username and password......................................passed
+And user clicks on submit button............................................passed
+Then user is on Home Page...................................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[]Online Shopping Indi...> but was:<[Shoppers Stop | ]Online Shopping Indi...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.cg.StepDef.LoginStepDef.user_is_on_Home_Page(LoginStepDef.java:37)
+	at ✽.Then user is on Home Page(login.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

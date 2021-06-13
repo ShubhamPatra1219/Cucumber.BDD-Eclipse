@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Positive Login Scenario",
+        "description": "",
+        "id": "login-feature;positive-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9272072200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1684793400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDef.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 229550100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13481800,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]Online Shopping Indi...\u003e but was:\u003c[Shoppers Stop | ]Online Shopping Indi...\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.cg.StepDef.LoginStepDef.user_is_on_Home_Page(LoginStepDef.java:37)\r\n\tat ✽.Then user is on Home Page(login.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smoke"
+          },
+          {
+            "line": 2,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
